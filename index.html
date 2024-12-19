@@ -1,1 +1,149 @@
-<h1>Hareesh Madinedi</h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hareesh Madinedi</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+      .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+      }
+      .header-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #333;
+        color: white;
+        padding: 20px;
+      }
+      .header-row h1 {
+        margin: 0;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+      ul li {
+        display: inline;
+        margin: 0 10px;
+      }
+      ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .row {
+        padding: 40px;
+        margin: 20px 0;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      h1, h2, h3 {
+        margin: 0 0 10px;
+      }
+      .box {
+        padding: 20px;
+        margin: 10px;
+      }
+      button {
+        padding: 10px 20px;
+        background: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-right: 10px;
+      }
+      button:hover {
+        background: #0056b3;
+      }
+      .footer {
+        text-align: center;
+        padding: 10px;
+        background: #333;
+        color: white;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-row"> 
+        <div class="box"><h1>Hareesh Madinedi</h1></div>
+        <div class="box">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="home" class="row">
+        <h1>Full Stack Developer</h1>
+        <p>Passionate about building web applications and learning new technologies.</p>
+      </div>
+
+      <div id="projects" class="row">
+        <h1>Projects</h1>
+        <div class="box">
+          <h3>Project 1</h3>
+          <p>Description of Project 1.</p>
+        </div>
+        <div class="box">
+          <h3>Project 2</h3>
+          <p>Description of Project 2.</p>
+        </div>
+      </div>
+
+      <div id="services" class="row">
+        <h1>Services</h1>
+        <div class="box">
+          <h3>Web App Development</h3>
+          <p>Building modern web applications using the latest technologies.</p>
+        </div>
+        <div class="box">
+          <h3>Backend Development</h3>
+          <p>Creating scalable and secure backend solutions.</p>
+        </div>
+      </div>
+
+      <div id="about" class="row">
+        <h1>About</h1>
+        <p>Based in Ayyapa Layout, Marathahalli, Bangalore, I am a dedicated developer with a passion for technology and innovation.</p>
+      </div>
+
+      <div id="contact" class="row">
+        <h1>Contact</h1>
+        <div class="box">
+          <h3>Your Details</h3>
+          <p><b>Address:</b> Ayyapa Layout, Marathahalli, Bangalore</p>
+          <p><b>Phone:</b> 6302201050</p>
+        </div>
+        <div class="box">
+          <h3>Contact Form</h3>
+          <form>
+            <p><input type="text" placeholder="Enter Name" required></p>
+            <p><input type="email" placeholder="Enter Email" required></p>
+            <p><textarea rows="5" placeholder="Enter Message" required></textarea></p>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer">&copy; 2024 Hareesh Madinedi. All rights reserved.</div>
+    </div>
+  </body>
+</html>
+
